@@ -6,10 +6,10 @@ This project implements a comprehensive medical image registration pipeline for 
 
 ## Core Objectives Achieved
 
-✅ **Affine + B-spline deformable registration implementation**
-✅ **Mutual information optimization**
-✅ **Target Registration Error (TRE) evaluation**
-✅ **Overlay alignment accuracy metrics**
+**Affine + B-spline deformable registration implementation**
+**Mutual information optimization**
+**Target Registration Error (TRE) evaluation**
+**Overlay alignment accuracy metrics**
 
 ## Features
 
