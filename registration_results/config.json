@@ -1,0 +1,39 @@
+{
+  "target_size": [
+    256,
+    256
+  ],
+  "normalize": true,
+  "histogram_matching": false,
+  "affine": {
+    "enabled": true,
+    "type": "affine",
+    "metric": "nmi",
+    "optimizer": "lbfgs",
+    "multi_resolution": true,
+    "num_levels": 3,
+    "num_bins": 32
+  },
+  "bspline": {
+    "enabled": true,
+    "grid_spacing": [
+      32,
+      32
+    ],
+    "metric": "nmi",
+    "optimizer": "lbfgs",
+    "regularization": 0.01,
+    "multi_resolution": true,
+    "num_levels": 3,
+    "num_bins": 32
+  },
+  "evaluation": {
+    "compute_tre": true,
+    "compute_dice": true,
+    "compute_overlay": true,
+    "compute_jacobian": true
+  },
+  "save_images": true,
+  "save_metrics": true,
+  "save_transforms": true
+}

@@ -1,0 +1,26 @@
+# Medical Image Registration Requirements
+
+# Core libraries
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-image>=0.21.0
+opencv-python>=4.8.0
+
+# Medical imaging libraries
+SimpleITK>=2.3.0
+nibabel>=5.1.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Progress tracking
+tqdm>=4.66.0
+
+# Optional for advanced features
+torch>=2.0.0  # For GPU acceleration if needed
+torchvision>=0.15.0
+
+# Testing and evaluation
+pytest>=7.4.0
+pytest-cov>=4.1.0
